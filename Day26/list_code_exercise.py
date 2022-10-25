@@ -16,7 +16,6 @@
 
 with open("Day26/file1.txt") as file1: 
     file1_data = file1.readlines()
-    print(file1_data)
 
 with open("Day26/file2.txt") as file2:
     file2_data = file2.readlines()

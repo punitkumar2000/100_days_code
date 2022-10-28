@@ -17,7 +17,7 @@ import pandas
 
 #----------------------------------
 # data = pandas.read_csv("Day25/weather_data.csv")
-# print(data["day"] == "Monday")
+# print(data["day"] == "Monday"
 
 
 #-----------------------------------------------------------------------------

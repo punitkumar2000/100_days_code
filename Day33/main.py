@@ -15,20 +15,20 @@
 # print(iss_position)
 
 
-import requests
-from datetime import datetime
+# import requests
+# from datetime import datetime
 
-parameters = {
-    "lat":28.7041,
-    "lng":77.1025,
-    "formatted":0
-}
-response = requests.get(url="https://api.sunrise-sunset.org/json", params=parameters)
-response.raise_for_status()
-data = response.json()
-sunrise = data["results"]["sunrise"].split("T")[1].split(":")[0]
-sunset = data["results"]["sunset"].split("T")[1].split(":")[0]
-print("sunrise", sunrise)
-print("sunset", sunset)
-print("present_time", datetime.now().hour)
-# print(time_now.hour)
+# parameters = {
+#     "lat":28.7041,
+#     "lng":77.1025,
+#     "formatted":0
+# }
+# response = requests.get(url="https://api.sunrise-sunset.org/json", params=parameters)
+# response.raise_for_status()
+# data = response.json()
+# sunrise = data["results"]["sunrise"].split("T")[1].split(":")[0]
+# sunset = data["results"]["sunset"].split("T")[1].split(":")[0]
+# print("sunrise", sunrise)
+# print("sunset", sunset)
+# print("present_time", datetime.now().hour)
+

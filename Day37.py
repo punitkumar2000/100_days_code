@@ -46,7 +46,6 @@ headers = {
     "X-USER-TOKEN" : TOKEN
 }
 response = requests.post(url = ADD_GRAPH_VALUE, json=GRAPH_VALUE_CREATION, headers = headers)
-print(response.text)
 
 # Update a pixel
 GRAPH_ID = "graph1"
@@ -78,4 +77,3 @@ headers = {
 }
 
 # response = requests.delete(url=DELETE_PIXEL,headers=headers)
-# print(response.text)
